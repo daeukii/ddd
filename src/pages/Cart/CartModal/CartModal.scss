@@ -1,0 +1,17 @@
+.cartModal {
+  position: absolute;
+  z-index: 1000;
+  width: 410px;
+  right: 0;
+  opacity: 1;
+  border: 1px solid #e3e0dc;
+  visibility: visibility;
+  background: #f7f7f5;
+
+  .miniCartWrap {
+    .miniCartBody {
+      max-height: 100%;
+      overflow-y: auto;
+    }
+  }
+}

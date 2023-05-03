@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Cutive+Mono&family=Source+Sans+Pro:wght@200;400;700&display=swap');
+$bg-dark: #595959;
+$text: #333;
+$bg-light: #f7f8f6;
+$border: #ebebeb;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

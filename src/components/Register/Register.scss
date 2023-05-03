@@ -1,0 +1,60 @@
+@import '../../styles/constant.scss';
+
+.register {
+  .backgroundWrapper {
+    height: 100vh;
+  }
+
+  .registerWrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 40px 0 40px 0;
+
+    h1 {
+      padding: 80px 18px 18px 18px;
+      margin-bottom: 15px;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Cutive', serif;
+    }
+
+    p {
+      margin-top: 20px;
+      line-height: 30px;
+      font-family: 'Cutive', serif;
+      font-size: 15px;
+    }
+  }
+
+  .registerInputWrapper {
+    border-bottom: 1px $border solid;
+  }
+
+  .askLogin {
+    @include center;
+
+    button {
+      margin: 15px;
+      border: {
+        top: none;
+        left: none;
+        right: none;
+        bottom: 1px solid gray;
+      }
+      outline: none;
+      font-family: 'Cutive', serif;
+      font-size: 20px;
+    }
+  }
+
+  .buttonWrap {
+    @include center;
+
+    .registerButton {
+      width: 300px;
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  }
+}
